@@ -1,0 +1,26 @@
+import random
+
+
+class Dice:
+    @staticmethod
+    def roll():
+        first = random.randint(1, 6)
+        second = random.randint(1, 6)
+        return first, second
+
+
+dice = Dice()
+print(Dice.roll())
+
+
+
+
+
+
+
+
+
+
+
+
+
